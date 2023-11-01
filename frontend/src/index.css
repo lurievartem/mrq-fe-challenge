@@ -15,6 +15,8 @@
   --colorSecondary: #f2f3f3;
   --colorDark: #0e1120;
   --colorWhite: #fdfdfd;
+  --colorGreen: #03ac13;
+  --colorRed: red;
 
   color: var(--colorDark);
 }
