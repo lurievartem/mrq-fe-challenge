@@ -1,3 +1,35 @@
 nav {
-  background: white;
+  background: var(--colorWhite);
+}
+
+nav ul {
+  list-style: none;
+  background-color: var(--colorDark);
+  color: var(--colorWhite);
+  display: flex;
+  padding: 0;
+}
+
+nav a {
+  color: var(--colorWhite);
+}
+
+nav a.active {
+  padding: 6px;
+  background-color: var(--colorPrimary);
+  color: var(--colorDark);
+  border-radius: 6px;
+}
+
+nav a:hover{
+  color: inherit;
+}
+
+nav a.active:hover{
+  color: var(--colorDark);
+}
+
+
+li {
+  margin-right: 2%;
 }

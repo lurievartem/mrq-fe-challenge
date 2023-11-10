@@ -1,0 +1,15 @@
+.symbolCardPriceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.symbolCardPriceText {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.symbolCardPriceValue {
+  font-weight: 800;
+  font-size: 1.3em;
+}
